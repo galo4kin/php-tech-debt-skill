@@ -4,7 +4,7 @@ layout: default
 parent: Русский
 nav_order: 5
 lang: ru
-counterpart: /php-tech-debt-skill/en/report-explained/
+counterpart: /en/report-explained/
 ---
 
 {%- include lang-switcher.html -%}

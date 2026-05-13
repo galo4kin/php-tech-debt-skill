@@ -4,7 +4,7 @@ layout: default
 parent: Русский
 nav_order: 2
 lang: ru
-counterpart: /php-tech-debt-skill/en/getting-started/
+counterpart: /en/getting-started/
 ---
 
 {%- include lang-switcher.html -%}

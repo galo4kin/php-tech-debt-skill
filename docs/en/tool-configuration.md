@@ -4,7 +4,7 @@ layout: default
 parent: English
 nav_order: 4
 lang: en
-counterpart: /php-tech-debt-skill/ru/tool-configuration/
+counterpart: /ru/tool-configuration/
 ---
 
 {%- include lang-switcher.html -%}

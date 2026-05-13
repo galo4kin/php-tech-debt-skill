@@ -4,7 +4,7 @@ layout: default
 parent: Русский
 nav_order: 3
 lang: ru
-counterpart: /php-tech-debt-skill/en/checks-reference/
+counterpart: /en/checks-reference/
 ---
 
 {%- include lang-switcher.html -%}

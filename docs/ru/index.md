@@ -4,7 +4,7 @@ layout: default
 has_children: true
 nav_order: 2
 lang: ru
-counterpart: /php-tech-debt-skill/en/
+counterpart: /en/
 ---
 
 {%- include lang-switcher.html -%}
