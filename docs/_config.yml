@@ -1,0 +1,16 @@
+title: PHP Tech Debt Skill
+description: Claude Code skill for comprehensive PHP technical debt auditing
+baseurl: /php-tech-debt-skill
+url: https://galo4kin.github.io
+
+remote_theme: just-the-docs/just-the-docs
+
+color_scheme: dark
+search_enabled: true
+
+aux_links:
+  GitHub:
+    - https://github.com/galo4kin/php-tech-debt-skill
+
+exclude:
+  - superpowers/

@@ -1,0 +1,11 @@
+{% if page.lang == "en" and page.counterpart %}
+  <p class="lang-switcher">
+    <strong>EN</strong> |
+    <a href="{{ page.counterpart | relative_url }}">RU</a>
+  </p>
+{% elsif page.lang == "ru" and page.counterpart %}
+  <p class="lang-switcher">
+    <a href="{{ page.counterpart | relative_url }}">EN</a> |
+    <strong>RU</strong>
+  </p>
+{% endif %}
