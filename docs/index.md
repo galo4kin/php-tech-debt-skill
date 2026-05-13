@@ -1,19 +1,51 @@
 ---
-title: PHP Tech Debt Skill
+title: English
 layout: default
-nav_exclude: true
+has_children: true
+nav_order: 1
+lang: en
+counterpart: /ru/
 ---
+
+{%- include lang-switcher.html -%}
 
 # PHP Tech Debt Skill
 
-Claude Code skill for comprehensive PHP technical debt auditing.
+A Claude Code skill that audits PHP projects for technical debt. It combines automated tool-based scoring with deep architectural analysis to produce an actionable report.
 
-Combines tool-based scoring (100-point scale) with deep architectural analysis across 9 dimensions. Produces a living `TECH_DEBT_AUDIT.md` report with `file:line` citations and change tracking between runs.
+## Key Features
 
----
+**Tool-based health score (0-100)** — runs up to 11 static analysis and quality tools (PHPStan, semgrep, phpcs, PHPUnit, and others) and scores across 5 categories: Security, Static Analysis, Dependencies, Code Quality, and Test Coverage. Each category is worth 20 points. Missing tools are handled through automatic score normalization.
 
-[**English Documentation**]({{ '/en/' | relative_url }}){: .btn .btn-primary .mr-2 }
-[**Документация на русском**]({{ '/ru/' | relative_url }}){: .btn .btn-outline }
+**9-dimension architectural audit** — Claude-driven analysis that searches for concrete patterns: god classes, N+1 queries, empty catch blocks, missing strict_types, hardcoded credentials, and dozens more. Every finding includes a `file:line` citation.
+
+**Repeat-run tracking** — run the audit again and the report shows what was resolved, what is new, and how the score changed. Findings get statuses: ACTIVE, RESOLVED, SHIFTED, or NEW.
+
+**Docker support** — auto-detects containerized PHP environments. No configuration needed.
+
+## Example Output
+
+```
+PHP Tech Debt Audit Complete
+Health Score: 72/100
+  Security:        18/20 ✓
+  Static Analysis: 14/20 ⚠
+  Dependencies:    12/20 ⚠
+  Code Quality:    16/20 ✓
+  Test Coverage:   12/20 ⚠
+
+Findings: 47 total (2 critical, 8 high, 22 medium, 15 low)
+Quick Wins: 6 items
+Report: TECH_DEBT_AUDIT.md
+```
+
+## Next Steps
+
+- [Getting Started](en/getting-started) — installation and first run
+- [Checks Reference](en/checks-reference) — all scoring categories and audit dimensions
+- [Tool Configuration](en/tool-configuration) — how each tool is detected and configured
+- [Understanding the Report](en/report-explained) — how to read TECH_DEBT_AUDIT.md
+- [FAQ](en/faq) — troubleshooting and common questions
 
 ---
 

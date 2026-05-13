@@ -4,7 +4,7 @@ layout: default
 has_children: true
 nav_order: 2
 lang: ru
-counterpart: /en/
+counterpart: /
 ---
 
 {%- include lang-switcher.html -%}
