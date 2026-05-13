@@ -1,37 +1,37 @@
-// Autumn palette
-// #2E2300 — Bark (dark background)
-// #6E6702 — Seaweed green (secondary accent)
-// #C05805 — Bronze (links, primary accent)
-// #DB9501 — Red gold (highlights, hover)
+// Light palette
+// #D55448 — Pumpkin (primary accent, links)
+// #FFA577 — Melon (highlights, hover)
+// #F9F9FF — Cotton (background)
+// #896E69 — Hot Chocolate (text, sidebar)
 
-$body-background-color: #1a1500;
-$sidebar-color: #2E2300;
-$body-text-color: #e8dcc8;
-$body-heading-color: #DB9501;
-$nav-child-link-color: #d4c4a0;
-$link-color: #C05805;
-$btn-primary-color: #C05805;
-$search-background-color: #3a2d00;
-$feedback-color: darken(#6E6702, 5%);
-$table-background-color: #2E2300;
-$code-background-color: #2E2300;
-$search-result-preview-color: #d4c4a0;
-$border-color: #4a3d1a;
+$body-background-color: #F9F9FF;
+$sidebar-color: #896E69;
+$body-text-color: #3d2b27;
+$body-heading-color: #D55448;
+$nav-child-link-color: #F9F9FF;
+$link-color: #D55448;
+$btn-primary-color: #D55448;
+$search-background-color: #f0eae8;
+$feedback-color: darken(#FFA577, 10%);
+$table-background-color: #f5f0ef;
+$code-background-color: #f5f0ef;
+$search-result-preview-color: #5a4440;
+$border-color: #e0d5d2;
 
 // Sidebar
-$sidebar-background-color: #2E2300;
+$sidebar-background-color: #896E69;
 
 // Search input
-$search-input-color: #e8dcc8;
+$search-input-color: #3d2b27;
 
 // Code
-$code-linenumber-color: #6E6702;
+$code-linenumber-color: #896E69;
 
 // Footer
-$footer-background-color: #1a1500;
+$footer-background-color: #F9F9FF;
 
 // Breadcrumb
-$breadcrumb-token-color: #6E6702;
+$breadcrumb-token-color: #896E69;
 
 // Navigation active state
-$nav-link-active-color: #DB9501;
+$nav-link-active-color: #FFA577;
