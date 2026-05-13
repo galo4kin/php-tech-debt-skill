@@ -4,6 +4,8 @@
 
 Claude Code skill for comprehensive PHP technical debt auditing.
 
+**[Documentation](https://galo4kin.github.io/php-tech-debt-skill/)**
+
 ## What It Does
 
 PHP Tech Debt Skill combines two complementary approaches into a single audit:
