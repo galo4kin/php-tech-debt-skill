@@ -1,37 +1,37 @@
-// Light palette
-// #D55448 — Pumpkin (primary accent, links)
-// #FFA577 — Melon (highlights, hover)
-// #F9F9FF — Cotton (background)
-// #896E69 — Hot Chocolate (text, sidebar)
+// Library palette
+// #42313A — Mahogany (dark background, sidebar)
+// #6C2D2C — Chestnut (secondary dark)
+// #9F4636 — Leather (links, primary accent)
+// #F1DCC9 — Parchment (text, highlights)
 
-$body-background-color: #F9F9FF;
-$sidebar-color: #896E69;
-$body-text-color: #3d2b27;
-$body-heading-color: #D55448;
-$nav-child-link-color: #F9F9FF;
-$link-color: #D55448;
-$btn-primary-color: #D55448;
-$search-background-color: #f0eae8;
-$feedback-color: darken(#FFA577, 10%);
-$table-background-color: #f5f0ef;
-$code-background-color: #f5f0ef;
-$search-result-preview-color: #5a4440;
-$border-color: #e0d5d2;
+$body-background-color: #2a1f24;
+$sidebar-color: #42313A;
+$body-text-color: #F1DCC9;
+$body-heading-color: #F1DCC9;
+$nav-child-link-color: #d4bfaf;
+$link-color: #d4845a;
+$btn-primary-color: #9F4636;
+$search-background-color: #42313A;
+$feedback-color: darken(#6C2D2C, 5%);
+$table-background-color: #42313A;
+$code-background-color: #42313A;
+$search-result-preview-color: #d4bfaf;
+$border-color: #5a4550;
 
 // Sidebar
-$sidebar-background-color: #896E69;
+$sidebar-background-color: #42313A;
 
 // Search input
-$search-input-color: #3d2b27;
+$search-input-color: #F1DCC9;
 
 // Code
-$code-linenumber-color: #896E69;
+$code-linenumber-color: #9F4636;
 
 // Footer
-$footer-background-color: #F9F9FF;
+$footer-background-color: #2a1f24;
 
 // Breadcrumb
-$breadcrumb-token-color: #896E69;
+$breadcrumb-token-color: #9F4636;
 
 // Navigation active state
-$nav-link-active-color: #FFA577;
+$nav-link-active-color: #d4845a;
